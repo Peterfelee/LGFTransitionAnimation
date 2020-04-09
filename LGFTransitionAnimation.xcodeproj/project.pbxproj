@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA54B58243ABA1C00052A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B57243ABA1C00052A5B /* AppDelegate.swift */; };
+		CFA54B5C243ABA1C00052A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B5B243ABA1C00052A5B /* ViewController.swift */; };
+		CFA54B5F243ABA1C00052A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA54B5D243ABA1C00052A5B /* Main.storyboard */; };
+		CFA54B61243ABA1E00052A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA54B60243ABA1E00052A5B /* Assets.xcassets */; };
+		CFA54B64243ABA1E00052A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA54B62243ABA1E00052A5B /* LaunchScreen.storyboard */; };
+		CFA54B6D243ABA5100052A5B /* LGFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B6C243ABA5100052A5B /* LGFExtension.swift */; };
+		CFA54B6F243ABA6600052A5B /* AnimationOfTransititon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */; };
+		CFA54B71243AD35800052A5B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B70243AD35800052A5B /* CircleViewController.swift */; };
+		E726CD1E243D9DBE0098CB63 /* InteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFA54B54243ABA1C00052A5B /* LGFTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGFTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA54B57243ABA1C00052A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA54B5B243ABA1C00052A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA54B5E243ABA1C00052A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA54B60243ABA1E00052A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA54B63243ABA1E00052A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA54B65243ABA1E00052A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA54B6C243ABA5100052A5B /* LGFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFExtension.swift; sourceTree = "<group>"; };
+		CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOfTransititon.swift; sourceTree = "<group>"; };
+		CFA54B70243AD35800052A5B /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA54B51243ABA1C00052A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA54B4B243ABA1C00052A5B = {
+			isa = PBXGroup;
+			children = (
+				CFA54B56243ABA1C00052A5B /* LGFTransitionAnimation */,
+				CFA54B55243ABA1C00052A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA54B55243ABA1C00052A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA54B54243ABA1C00052A5B /* LGFTransitionAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA54B56243ABA1C00052A5B /* LGFTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CFA54B6B243ABA2B00052A5B /* Animation */,
+				CFA54B57243ABA1C00052A5B /* AppDelegate.swift */,
+				CFA54B5B243ABA1C00052A5B /* ViewController.swift */,
+				CFA54B70243AD35800052A5B /* CircleViewController.swift */,
+				E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */,
+				CFA54B5D243ABA1C00052A5B /* Main.storyboard */,
+				CFA54B60243ABA1E00052A5B /* Assets.xcassets */,
+				CFA54B62243ABA1E00052A5B /* LaunchScreen.storyboard */,
+				CFA54B65243ABA1E00052A5B /* Info.plist */,
+			);
+			path = LGFTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		CFA54B6B243ABA2B00052A5B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CFA54B6C243ABA5100052A5B /* LGFExtension.swift */,
+				CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA54B53243ABA1C00052A5B /* LGFTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA54B68243ABA1E00052A5B /* Build configuration list for PBXNativeTarget "LGFTransitionAnimation" */;
+			buildPhases = (
+				CFA54B50243ABA1C00052A5B /* Sources */,
+				CFA54B51243ABA1C00052A5B /* Frameworks */,
+				CFA54B52243ABA1C00052A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGFTransitionAnimation;
+			productName = LGFTransitionAnimation;
+			productReference = CFA54B54243ABA1C00052A5B /* LGFTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA54B4C243ABA1C00052A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = peterlee;
+				TargetAttributes = {
+					CFA54B53243ABA1C00052A5B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CFA54B4F243ABA1C00052A5B /* Build configuration list for PBXProject "LGFTransitionAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA54B4B243ABA1C00052A5B;
+			productRefGroup = CFA54B55243ABA1C00052A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA54B53243ABA1C00052A5B /* LGFTransitionAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA54B52243ABA1C00052A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA54B64243ABA1E00052A5B /* LaunchScreen.storyboard in Resources */,
+				CFA54B61243ABA1E00052A5B /* Assets.xcassets in Resources */,
+				CFA54B5F243ABA1C00052A5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA54B50243ABA1C00052A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA54B5C243ABA1C00052A5B /* ViewController.swift in Sources */,
+				CFA54B6F243ABA6600052A5B /* AnimationOfTransititon.swift in Sources */,
+				CFA54B71243AD35800052A5B /* CircleViewController.swift in Sources */,
+				CFA54B58243ABA1C00052A5B /* AppDelegate.swift in Sources */,
+				CFA54B6D243ABA5100052A5B /* LGFExtension.swift in Sources */,
+				E726CD1E243D9DBE0098CB63 /* InteractionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFA54B5D243ABA1C00052A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA54B5E243ABA1C00052A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA54B62243ABA1E00052A5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA54B63243ABA1E00052A5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA54B66243ABA1E00052A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA54B67243ABA1E00052A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA54B69243ABA1E00052A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QSMBHVDKR;
+				INFOPLIST_FILE = LGFTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LGF.LGFTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA54B6A243ABA1E00052A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QSMBHVDKR;
+				INFOPLIST_FILE = LGFTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LGF.LGFTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA54B4F243ABA1C00052A5B /* Build configuration list for PBXProject "LGFTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA54B66243ABA1E00052A5B /* Debug */,
+				CFA54B67243ABA1E00052A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA54B68243ABA1E00052A5B /* Build configuration list for PBXNativeTarget "LGFTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA54B69243ABA1E00052A5B /* Debug */,
+				CFA54B6A243ABA1E00052A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA54B4C243ABA1C00052A5B /* Project object */;
+}
