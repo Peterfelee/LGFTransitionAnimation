@@ -16,6 +16,7 @@
 		CFA54B6F243ABA6600052A5B /* AnimationOfTransititon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */; };
 		CFA54B71243AD35800052A5B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B70243AD35800052A5B /* CircleViewController.swift */; };
 		E726CD1E243D9DBE0098CB63 /* InteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */; };
+		E765DC1C24498583008AD902 /* LGFBaseSlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765DC1B24498583008AD902 /* LGFBaseSlideCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOfTransititon.swift; sourceTree = "<group>"; };
 		CFA54B70243AD35800052A5B /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionViewController.swift; sourceTree = "<group>"; };
+		E765DC1B24498583008AD902 /* LGFBaseSlideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFBaseSlideCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		CFA54B56243ABA1C00052A5B /* LGFTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E765DC1B24498583008AD902 /* LGFBaseSlideCell.swift */,
 				CFA54B6B243ABA2B00052A5B /* Animation */,
 				CFA54B57243ABA1C00052A5B /* AppDelegate.swift */,
 				CFA54B5B243ABA1C00052A5B /* ViewController.swift */,
@@ -159,6 +162,7 @@
 				CFA54B6F243ABA6600052A5B /* AnimationOfTransititon.swift in Sources */,
 				CFA54B71243AD35800052A5B /* CircleViewController.swift in Sources */,
 				CFA54B58243ABA1C00052A5B /* AppDelegate.swift in Sources */,
+				E765DC1C24498583008AD902 /* LGFBaseSlideCell.swift in Sources */,
 				CFA54B6D243ABA5100052A5B /* LGFExtension.swift in Sources */,
 				E726CD1E243D9DBE0098CB63 /* InteractionViewController.swift in Sources */,
 			);
