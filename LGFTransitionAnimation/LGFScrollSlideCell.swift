@@ -1,14 +1,14 @@
 //
-//  LGFBaseSlideCell.swift
+//  LGFScrollSlideCell.swift
 //  LGFTransitionAnimation
 //
-//  Created by peterlee on 2020/4/17.
+//  Created by peterlee on 2020/4/22.
 //  Copyright © 2020 peterlee. All rights reserved.
 //
 
 import UIKit
 
-class LGFBaseSlideCell: UITableViewCell {
+class LGFScrollSlideCell: UITableViewCell {
     
     /**默认的按钮的宽度 ，可修改 */
     var LGF_ButtonMargin:CGFloat = 50{
@@ -43,8 +43,11 @@ class LGFBaseSlideCell: UITableViewCell {
         }
     }
     
-    private lazy var LGF_containerView:UIView = {
-        let temp = UIView()
+    private lazy var LGF_containerView:UIScrollView = {
+        let temp = UIScrollView()
+        temp.showsHorizontalScrollIndicator = false
+        temp.showsVerticalScrollIndicator = false
+        temp.contentSize = CGSize(width: LGF_SCREEN_WIDTH, height: 0)
         temp.frame = CGRect(x: 0, y: 0, width: LGF_SCREEN_WIDTH, height: 50)
         return temp
     }()
@@ -64,6 +67,7 @@ class LGFBaseSlideCell: UITableViewCell {
             if LGF_containerView.frame.maxX > originalLGF_slideViewX
             {
                 LGF_slideView?.setX(x: LGF_SCREEN_WIDTH)
+                LGF_containerView.setWidth(width: LGF_SCREEN_WIDTH - 3)
             }
             else
             {
@@ -155,7 +159,7 @@ class LGFBaseSlideCell: UITableViewCell {
             LGF_containerView.frame = self.bounds
 
             LGF_slideView!.subviews.enumerated().forEach { (index,view) in
-                view.frame = CGRect(x:LGF_ButtonMargin * CGFloat(temp - 1 - index), y: 0, width: LGF_ButtonMargin , height: frame.height)                
+                view.frame = CGRect(x:LGF_ButtonMargin * CGFloat(temp - 1 - index), y: 0, width: LGF_ButtonMargin , height: frame.height)
             }
         }
         
@@ -191,7 +195,7 @@ class LGFBaseSlideCell: UITableViewCell {
 }
 
 //MARK:private method
-extension LGFBaseSlideCell{
+extension LGFScrollSlideCell{
     @objc private func buttonClick(btn:UIButton){
         if action != nil
         {
@@ -270,7 +274,7 @@ extension LGFBaseSlideCell{
 }
 
 //MARK:public method
-extension LGFBaseSlideCell{
+extension LGFScrollSlideCell{
     /**添加按钮*/
     func addButton(title:String?,image:String?,action:@escaping((UIButton)->())){
         LGF_totalButtonWidth += LGF_ButtonMargin
@@ -309,42 +313,3 @@ extension LGFBaseSlideCell{
         isShow = false
     }
 }
-
-
-
-
-extension UITableView{
-    private struct LGF_UITableView {
-        static var showIndexPathKey:String = "LGFShowIndexPath"
-    }
-    
-    var LGF_showCellIndexPath:Int?{
-        set{
-            if self.LGF_showCellIndexPath != nil && newValue != self.LGF_showCellIndexPath
-            {
-                LGF_hiddenCellForIndex(index: self.LGF_showCellIndexPath!)
-            }
-            objc_setAssociatedObject(self, &LGF_UITableView.showIndexPathKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
-        }
-        get{
-            return  objc_getAssociatedObject(self, &LGF_UITableView.showIndexPathKey) as? Int
-        }
-    }
-    
-    func LGF_hiddenAllCell(){
-        if self.LGF_showCellIndexPath != nil
-        {
-            LGF_hiddenCellForIndex(index: self.LGF_showCellIndexPath!)
-            LGF_showCellIndexPath = nil
-        }
-    }
-    
-    
-    private func LGF_hiddenCellForIndex(index:Int){
-        if let cell:LGFBaseSlideCell = self.cellForRow(at: IndexPath(row: index, section: 0)) as? LGFBaseSlideCell
-        {
-            cell.hidden(animation: true)
-        }
-    }
-}
-

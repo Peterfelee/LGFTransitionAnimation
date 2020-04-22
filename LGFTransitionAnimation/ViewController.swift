@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(LGFSlideCell.classForCoder(), forCellReuseIdentifier: NSStringFromClass(LGFSlideCell.classForCoder()))
+
         tableView.rowHeight = 80
         view.addSubview(tableView)
         
@@ -72,7 +73,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         currentView = tableView.cellForRow(at: indexPath) as? LGFSlideCell
         if indexPath.row > 4
         {
-            navigationController?.lgf_pushViewController(viewController: vc, style: AnimationStyle(rawValue: UInt(indexPath.row))!)
+            navigationController?.lgf_pushViewController(viewController: SlideViewController(), style: AnimationStyle(rawValue: UInt(indexPath.row))!)
         }
         else
         {

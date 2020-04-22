@@ -60,6 +60,14 @@ class CircleViewController: UIViewController {
         thirdButton.frame = CGRect(origin: CGPoint(x: 50, y:200), size: CGSize(width: 100, height: 50))
          
         testButton.frame = CGRect(origin: CGPoint(x: 50, y:250), size: CGSize(width: 100, height: 50))
+        
+//        testButton.translatesAutoresizingMaskIntoConstraints  = false
+//       let topconstraint =  testButton.topAnchor.constraint(equalTo: thirdButton.bottomAnchor,constant: 50)
+//        let leftConstraint = testButton.leftAnchor.constraint(equalTo: view.leftAnchor)
+//        let widthConstraint = testButton.widthAnchor.constraint(equalToConstant: 100)
+//        let heightConstraint = testButton.heightAnchor.constraint(equalToConstant: 50)
+//        testButton.addConstraints([topconstraint,leftConstraint,widthConstraint,heightConstraint])
+//        testButton.frame = CGRect(origin: CGPoint(x: 50, y:250), size: CGSize(width: 100, height: 50))
     }
     
     @objc private func thirdButtonClick(btn:UIButton)

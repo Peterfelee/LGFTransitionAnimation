@@ -1,0 +1,6 @@
+framework module Pods_LGFTransitionAnimation {
+  umbrella header "Pods-LGFTransitionAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

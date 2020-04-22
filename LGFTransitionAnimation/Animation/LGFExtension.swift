@@ -488,7 +488,7 @@ extension UINavigationController{
         viewController.interactionDelegate = interaction
         let edgePan = UIScreenEdgePanGestureRecognizer(target: viewController, action: #selector(UIViewController.edgePanAction(gesture:)))
         edgePan.edges = .left
-        viewController.view.addGestureRecognizer(edgePan)
+//        viewController.view.addGestureRecognizer(edgePan)
         self.delegate = viewController
         pushViewController(viewController, animated: true)
     }
