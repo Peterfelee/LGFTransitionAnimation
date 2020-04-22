@@ -240,8 +240,8 @@ extension SlideViewController:UIScrollViewDelegate{
             if velocity.y < 0 {//向下滑动
                 if pulledDownOffset - contentoffsetY > 0
                 {
-                    scrollView.contentInset = UIEdgeInsets(top: UIScreen.main.bounds.height-headerViewBottom, left: 0, bottom: 0, right: 0)
-                    targetContentOffset.pointee.y =  -UIScreen.main.bounds.height + headerViewBottom
+                    scrollView.contentInset = UIEdgeInsets(top: LGF_SCREEN_HEIGHT-headerViewBottom, left: 0, bottom: 0, right: 0)
+                    targetContentOffset.pointee.y =  -LGF_SCREEN_HEIGHT + headerViewBottom
                     
                 }
                 else if pulledDownOffset - contentoffsetY > -headerViewBounce
@@ -259,6 +259,10 @@ extension SlideViewController:UIScrollViewDelegate{
             } else {//向上滑动
                 if(pulledDownOffset - contentoffsetY > 0)//在中间那个弹性区域以下
                 {
+                    if targetOffset >= -LGF_SCREEN_HEIGHT + headerViewBottom
+                    {
+                        return
+                    }
                     scrollView.contentInset = UIEdgeInsets(top: maxVisibleContentHeight, left: 0, bottom: 0, right: 0)
                     targetContentOffset.pointee.y = pulledDownOffset
                 }
@@ -288,8 +292,8 @@ extension SlideViewController:UIScrollViewDelegate{
                 targetContentOffset.pointee.y =  pulledUpOffset
                 return
             }
-                scrollView.contentInset = UIEdgeInsets(top: UIScreen.main.bounds.height-headerViewBottom, left: 0, bottom: 0, right: 0)
-                targetContentOffset.pointee.y =  -UIScreen.main.bounds.height + headerViewBottom
+                scrollView.contentInset = UIEdgeInsets(top: LGF_SCREEN_HEIGHT-headerViewBottom, left: 0, bottom: 0, right: 0)
+                targetContentOffset.pointee.y =  -LGF_SCREEN_HEIGHT + headerViewBottom
         }
     }
     
