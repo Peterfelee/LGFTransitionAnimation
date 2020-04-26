@@ -8,17 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SlideCellViewController: UIViewController {
     private var touchPoint:CGPoint = .zero
     private var currentView:LGFSlideCell?
     private let buttons:[AnimationStyle] = [.None,.Circle,.BackScale,.Erect,.Tilted,.Scale,.Back,.Cube,.SuckEffect,.OglFlip,.RippleEffect,.PageCurl,.CameralIrisHollowOpen,.TopBack]
     
     private var tableView:UITableView!
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.isHidden = true
-    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,7 +49,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController:UITableViewDelegate,UITableViewDataSource{
+extension SlideCellViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return buttons.count
     }

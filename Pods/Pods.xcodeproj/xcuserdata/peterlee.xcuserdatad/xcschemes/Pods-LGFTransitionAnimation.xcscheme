@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96D006EAB64FABC4B8E5DEFFD78769F2"
+               BlueprintIdentifier = "0F4650CD0C7D6F6631B799AE88C4B575"
                BuildableName = "Pods_LGFTransitionAnimation.framework"
                BlueprintName = "Pods-LGFTransitionAnimation"
                ReferencedContainer = "container:Pods.xcodeproj">

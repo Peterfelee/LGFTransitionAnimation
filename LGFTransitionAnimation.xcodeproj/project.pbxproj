@@ -9,17 +9,25 @@
 /* Begin PBXBuildFile section */
 		178B92216566AD5CDCC0B990 /* Pods_LGFTransitionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5981DA2046BBA57CB888E2C4 /* Pods_LGFTransitionAnimation.framework */; };
 		CFA54B58243ABA1C00052A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B57243ABA1C00052A5B /* AppDelegate.swift */; };
-		CFA54B5C243ABA1C00052A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B5B243ABA1C00052A5B /* ViewController.swift */; };
+		CFA54B5C243ABA1C00052A5B /* SlideCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B5B243ABA1C00052A5B /* SlideCellViewController.swift */; };
 		CFA54B5F243ABA1C00052A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA54B5D243ABA1C00052A5B /* Main.storyboard */; };
 		CFA54B61243ABA1E00052A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA54B60243ABA1E00052A5B /* Assets.xcassets */; };
 		CFA54B64243ABA1E00052A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA54B62243ABA1E00052A5B /* LaunchScreen.storyboard */; };
 		CFA54B6D243ABA5100052A5B /* LGFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B6C243ABA5100052A5B /* LGFExtension.swift */; };
 		CFA54B6F243ABA6600052A5B /* AnimationOfTransititon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */; };
 		CFA54B71243AD35800052A5B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA54B70243AD35800052A5B /* CircleViewController.swift */; };
-		E726CD1E243D9DBE0098CB63 /* InteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */; };
-		E765DC1C24498583008AD902 /* LGFBaseSlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765DC1B24498583008AD902 /* LGFBaseSlideCell.swift */; };
-		E76DD654244FF86A000E35AB /* LGFScrollSlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DD653244FF86A000E35AB /* LGFScrollSlideCell.swift */; };
+		E726CD1E243D9DBE0098CB63 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E726CD1D243D9DBE0098CB63 /* LottieViewController.swift */; };
 		E76DD65924502B61000E35AB /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DD65824502B61000E35AB /* SlideViewController.swift */; };
+		E7C0D7AD2455809300531081 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0D7AB2455809300531081 /* MainViewController.swift */; };
+		E7C0D7AE2455809300531081 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C0D7AC2455809300531081 /* MainViewController.xib */; };
+		E7C0D7B02455842300531081 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0D7AF2455842300531081 /* TransitionViewController.swift */; };
+		E7C0D7B5245587FB00531081 /* LGFBaseSlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0D7B3245587FB00531081 /* LGFBaseSlideCell.swift */; };
+		E7C0D7B6245587FB00531081 /* LGFScrollSlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0D7B4245587FB00531081 /* LGFScrollSlideCell.swift */; };
+		E7C0D7BD24558DB700531081 /* wordpress.json in Resources */ = {isa = PBXBuildFile; fileRef = E7C0D7B824558DB700531081 /* wordpress.json */; };
+		E7C0D7BE24558DB700531081 /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = E7C0D7B924558DB700531081 /* star.json */; };
+		E7C0D7BF24558DB700531081 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E7C0D7BA24558DB700531081 /* menu.json */; };
+		E7C0D7C024558DB700531081 /* spraying.json in Resources */ = {isa = PBXBuildFile; fileRef = E7C0D7BB24558DB700531081 /* spraying.json */; };
+		E7C0D7C124558DB700531081 /* trackingapp.json in Resources */ = {isa = PBXBuildFile; fileRef = E7C0D7BC24558DB700531081 /* trackingapp.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +36,7 @@
 		5981DA2046BBA57CB888E2C4 /* Pods_LGFTransitionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGFTransitionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA54B54243ABA1C00052A5B /* LGFTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGFTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA54B57243ABA1C00052A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFA54B5B243ABA1C00052A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA54B5B243ABA1C00052A5B /* SlideCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCellViewController.swift; sourceTree = "<group>"; };
 		CFA54B5E243ABA1C00052A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFA54B60243ABA1E00052A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA54B63243ABA1E00052A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,10 +44,18 @@
 		CFA54B6C243ABA5100052A5B /* LGFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFExtension.swift; sourceTree = "<group>"; };
 		CFA54B6E243ABA6600052A5B /* AnimationOfTransititon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOfTransititon.swift; sourceTree = "<group>"; };
 		CFA54B70243AD35800052A5B /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
-		E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionViewController.swift; sourceTree = "<group>"; };
-		E765DC1B24498583008AD902 /* LGFBaseSlideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFBaseSlideCell.swift; sourceTree = "<group>"; };
-		E76DD653244FF86A000E35AB /* LGFScrollSlideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFScrollSlideCell.swift; sourceTree = "<group>"; };
+		E726CD1D243D9DBE0098CB63 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		E76DD65824502B61000E35AB /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		E7C0D7AB2455809300531081 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E7C0D7AC2455809300531081 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E7C0D7AF2455842300531081 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		E7C0D7B3245587FB00531081 /* LGFBaseSlideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGFBaseSlideCell.swift; sourceTree = "<group>"; };
+		E7C0D7B4245587FB00531081 /* LGFScrollSlideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGFScrollSlideCell.swift; sourceTree = "<group>"; };
+		E7C0D7B824558DB700531081 /* wordpress.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordpress.json; sourceTree = "<group>"; };
+		E7C0D7B924558DB700531081 /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
+		E7C0D7BA24558DB700531081 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		E7C0D7BB24558DB700531081 /* spraying.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spraying.json; sourceTree = "<group>"; };
+		E7C0D7BC24558DB700531081 /* trackingapp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trackingapp.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +99,17 @@
 		CFA54B56243ABA1C00052A5B /* LGFTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				E765DC1B24498583008AD902 /* LGFBaseSlideCell.swift */,
-				E76DD653244FF86A000E35AB /* LGFScrollSlideCell.swift */,
+				E7C0D7B724558B9C00531081 /* JsonData */,
+				E7C0D7B2245587FB00531081 /* Cell */,
 				CFA54B6B243ABA2B00052A5B /* Animation */,
 				CFA54B57243ABA1C00052A5B /* AppDelegate.swift */,
-				CFA54B5B243ABA1C00052A5B /* ViewController.swift */,
+				CFA54B5B243ABA1C00052A5B /* SlideCellViewController.swift */,
+				E7C0D7AF2455842300531081 /* TransitionViewController.swift */,
+				E7C0D7AB2455809300531081 /* MainViewController.swift */,
+				E7C0D7AC2455809300531081 /* MainViewController.xib */,
 				E76DD65824502B61000E35AB /* SlideViewController.swift */,
 				CFA54B70243AD35800052A5B /* CircleViewController.swift */,
-				E726CD1D243D9DBE0098CB63 /* InteractionViewController.swift */,
+				E726CD1D243D9DBE0098CB63 /* LottieViewController.swift */,
 				CFA54B5D243ABA1C00052A5B /* Main.storyboard */,
 				CFA54B60243ABA1E00052A5B /* Assets.xcassets */,
 				CFA54B62243ABA1E00052A5B /* LaunchScreen.storyboard */,
@@ -115,6 +134,27 @@
 				13288E430BEA1A021C0030AA /* Pods-LGFTransitionAnimation.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7C0D7B2245587FB00531081 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E7C0D7B3245587FB00531081 /* LGFBaseSlideCell.swift */,
+				E7C0D7B4245587FB00531081 /* LGFScrollSlideCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E7C0D7B724558B9C00531081 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				E7C0D7BA24558DB700531081 /* menu.json */,
+				E7C0D7BB24558DB700531081 /* spraying.json */,
+				E7C0D7B924558DB700531081 /* star.json */,
+				E7C0D7BC24558DB700531081 /* trackingapp.json */,
+				E7C0D7B824558DB700531081 /* wordpress.json */,
+			);
+			path = JsonData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA54B64243ABA1E00052A5B /* LaunchScreen.storyboard in Resources */,
+				E7C0D7BE24558DB700531081 /* star.json in Resources */,
+				E7C0D7C024558DB700531081 /* spraying.json in Resources */,
+				E7C0D7C124558DB700531081 /* trackingapp.json in Resources */,
+				E7C0D7BD24558DB700531081 /* wordpress.json in Resources */,
 				CFA54B61243ABA1E00052A5B /* Assets.xcassets in Resources */,
 				CFA54B5F243ABA1C00052A5B /* Main.storyboard in Resources */,
+				E7C0D7AE2455809300531081 /* MainViewController.xib in Resources */,
+				E7C0D7BF24558DB700531081 /* menu.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,12 +242,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LGFTransitionAnimation/Pods-LGFTransitionAnimation-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -237,15 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA54B5C243ABA1C00052A5B /* ViewController.swift in Sources */,
+				E7C0D7B5245587FB00531081 /* LGFBaseSlideCell.swift in Sources */,
+				CFA54B5C243ABA1C00052A5B /* SlideCellViewController.swift in Sources */,
 				CFA54B6F243ABA6600052A5B /* AnimationOfTransititon.swift in Sources */,
 				CFA54B71243AD35800052A5B /* CircleViewController.swift in Sources */,
 				CFA54B58243ABA1C00052A5B /* AppDelegate.swift in Sources */,
-				E76DD654244FF86A000E35AB /* LGFScrollSlideCell.swift in Sources */,
 				E76DD65924502B61000E35AB /* SlideViewController.swift in Sources */,
-				E765DC1C24498583008AD902 /* LGFBaseSlideCell.swift in Sources */,
 				CFA54B6D243ABA5100052A5B /* LGFExtension.swift in Sources */,
-				E726CD1E243D9DBE0098CB63 /* InteractionViewController.swift in Sources */,
+				E7C0D7B6245587FB00531081 /* LGFScrollSlideCell.swift in Sources */,
+				E7C0D7B02455842300531081 /* TransitionViewController.swift in Sources */,
+				E726CD1E243D9DBE0098CB63 /* LottieViewController.swift in Sources */,
+				E7C0D7AD2455809300531081 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
