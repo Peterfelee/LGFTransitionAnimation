@@ -31,4 +31,11 @@ class LottieViewController: UIViewController {
         lottieView.stop()
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let path = Bundle.main.path(forResource: "menu.json", ofType: nil)
+        let activity = UIActivityViewController(activityItems: [path as Any], applicationActivities: nil)
+        self.present(activity, animated: true) {
+            
+        }
+    }
 }
