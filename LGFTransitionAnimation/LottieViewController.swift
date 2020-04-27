@@ -24,8 +24,11 @@ class LottieViewController: UIViewController {
             self?.navigationController?.popViewController(animated: true)
         }
         // Do any additional setup after loading the view.
+      
+        
     }
 
+    
     
     deinit {
 //        lottieView.stop()

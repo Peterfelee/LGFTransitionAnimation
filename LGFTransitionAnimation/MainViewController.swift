@@ -31,8 +31,13 @@ class MainViewController: UIViewController {
     @IBAction func lottieViewController(_ sender: Any) {
         self.navigationController?.pushViewController(LottieViewController(), animated: true)
     }
+     @IBAction func otherClick(_ sender: Any) {
+        self.navigationController?.pushViewController(OthersViewController(), animated: true)
+        
+     }
+    
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

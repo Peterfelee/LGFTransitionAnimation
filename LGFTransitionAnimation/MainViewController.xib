@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pT-uK-XV1">
-                    <rect key="frame" x="80" y="352" width="254" height="60"/>
+                    <rect key="frame" x="80" y="278" width="254" height="60"/>
                     <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="SlideCell"/>
                     <userDefinedRuntimeAttributes>
@@ -32,7 +32,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7j-CP-ck6">
-                    <rect key="frame" x="80" y="536" width="254" height="60"/>
+                    <rect key="frame" x="80" y="388" width="254" height="60"/>
                     <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Lottie"/>
                     <userDefinedRuntimeAttributes>
@@ -60,19 +60,37 @@
                         <action selector="transitionViewController:" destination="-1" eventType="touchUpInside" id="m8u-cI-GHN"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEE-Xg-4fw">
+                    <rect key="frame" x="80" y="498" width="254" height="60"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Others"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="18"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="otherClick:" destination="-1" eventType="touchUpInside" id="we7-2a-e7R"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="d7j-CP-ck6" firstAttribute="leading" secondItem="DyA-Hi-nRS" secondAttribute="leading" id="5t6-rG-Ma4"/>
                 <constraint firstItem="7pT-uK-XV1" firstAttribute="leading" secondItem="DyA-Hi-nRS" secondAttribute="leading" id="5xa-OV-1d5"/>
                 <constraint firstItem="d7j-CP-ck6" firstAttribute="height" secondItem="DyA-Hi-nRS" secondAttribute="height" id="6HT-6q-W8M"/>
+                <constraint firstItem="VEE-Xg-4fw" firstAttribute="height" secondItem="d7j-CP-ck6" secondAttribute="height" id="6ck-sZ-WzP"/>
+                <constraint firstItem="VEE-Xg-4fw" firstAttribute="width" secondItem="d7j-CP-ck6" secondAttribute="width" id="ABt-5P-Q9s"/>
                 <constraint firstItem="7pT-uK-XV1" firstAttribute="height" secondItem="DyA-Hi-nRS" secondAttribute="height" id="ALY-hW-b36"/>
                 <constraint firstItem="DyA-Hi-nRS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="80" id="ALg-7I-pVl"/>
+                <constraint firstItem="VEE-Xg-4fw" firstAttribute="top" secondItem="d7j-CP-ck6" secondAttribute="bottom" constant="50" id="F1a-Or-dHF"/>
                 <constraint firstItem="DyA-Hi-nRS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LFL-qO-y8E"/>
-                <constraint firstItem="d7j-CP-ck6" firstAttribute="top" secondItem="7pT-uK-XV1" secondAttribute="bottom" constant="124" id="XIx-Qd-pWE"/>
-                <constraint firstItem="7pT-uK-XV1" firstAttribute="top" secondItem="DyA-Hi-nRS" secondAttribute="bottom" constant="124" id="kzQ-uv-en8"/>
+                <constraint firstItem="d7j-CP-ck6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Sdl-fU-2KR"/>
+                <constraint firstItem="d7j-CP-ck6" firstAttribute="top" secondItem="7pT-uK-XV1" secondAttribute="bottom" constant="50" id="XIx-Qd-pWE"/>
+                <constraint firstItem="7pT-uK-XV1" firstAttribute="top" secondItem="DyA-Hi-nRS" secondAttribute="bottom" constant="50" id="kzQ-uv-en8"/>
                 <constraint firstItem="d7j-CP-ck6" firstAttribute="width" secondItem="DyA-Hi-nRS" secondAttribute="width" id="oHd-YT-flq"/>
                 <constraint firstItem="7pT-uK-XV1" firstAttribute="width" secondItem="DyA-Hi-nRS" secondAttribute="width" id="rkD-43-UdW"/>
+                <constraint firstItem="VEE-Xg-4fw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s0y-m9-U1H"/>
                 <constraint firstItem="DyA-Hi-nRS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="124" id="wIA-zd-iht"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
