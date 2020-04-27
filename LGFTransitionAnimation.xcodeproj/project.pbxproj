@@ -46,6 +46,7 @@
 		CFA54B70243AD35800052A5B /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		E726CD1D243D9DBE0098CB63 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		E76DD65824502B61000E35AB /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		E76E8E3424568CB100AD5883 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E7C0D7AB2455809300531081 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E7C0D7AC2455809300531081 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		E7C0D7AF2455842300531081 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		CFA54B56243ABA1C00052A5B /* LGFTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E76E8E3424568CB100AD5883 /* README.md */,
 				E7C0D7B724558B9C00531081 /* JsonData */,
 				E7C0D7B2245587FB00531081 /* Cell */,
 				CFA54B6B243ABA2B00052A5B /* Animation */,
